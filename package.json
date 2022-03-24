@@ -1,0 +1,25 @@
+{
+  "name": "xtimer",
+  "version": "1.0.0",
+  "description": "Timer App",
+  "repository": {
+    "type": "app",
+    "url": "http://log-me.netlify.app"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.2",
+    "electron-builder": "^22.14.13"
+  },
+  "icon": "/home/shazin/Projects/xtimer/assets/app.png",
+  
+  "homepage": "http://log-me.netlify.app",
+  "author": "",
+  "dependencies": {
+    "electron-packager": "^15.4.0"
+  }
+}

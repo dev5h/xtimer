@@ -1,0 +1,57 @@
+<html><head>
+    <title>00:00:02 - t2S</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&amp;family=Source+Code+Pro:wght@400;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/app.css">
+    <script src="./lib/jquery.min.js"></script>
+
+    <script src="./lib/easytimer.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hamburger-container">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      
+      <div class="timer_area">00:00:00</div>
+      <section id="ctrl_btns">
+        <button id="play" class="ctrl_play_pause">Play</button>
+        <button id="reset" class="ctrl_reset" onclick="confirm('Your all records of this session will be reset to starting, You sure?')">
+          Reset
+        </button>
+      </section>
+    </div>
+
+    <!-- Timeline Area
+    <section class="timeline">
+      <div class="timeline-ttl">Timeline</div>
+      <div class="timeline-texts"></div>
+    </section> -->
+
+    <!--PopUP Box-->
+    <section id="darkypopupbg" class="darkypopupbg">
+      <div id="popup">
+        <div class="pop-ttl">Backup Found of </div>
+        <div class="pop-footer">
+          <button id="pop_start_over" class="ctrl_reset">Start Over</button>
+          <button id="pop_resume" class="ctrl_play_pause">Resume</button>
+        </div>
+      </div>
+    </section>
+
+    <audio src="./assets/play.wav" id="play_sfx"></audio>
+    <audio src="./assets/interval.wav" id="interval_sfx"></audio>
+
+    <!--Footer-->
+
+    
+    <!--Scripts-->
+    <script src="./scripts/handleBrowser.js"></script>
+    <script src="./scripts/ui.js"></script>
+    <script src="./scripts/handleTimer.js"></script>
+  
+
+</body></html>
